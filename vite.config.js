@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/react-plugin' // or your current react plugin
+import react from '@vitejs/plugin-react' // 👈 Fixed this line
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Football-Scoring-App/',
+  base: '/your-repository-name/', 
 })
